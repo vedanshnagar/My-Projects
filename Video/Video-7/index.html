@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Let's Learn It!</title>
+</head>
+
+<body>
+    <h1>Form to apply for Sigma Web Development - TA</h1>
+    <form method="post" action="/submit">
+        <div>
+            <label for="username">Enter Your Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter Your Username" autofocus>
+        </div>
+        <div>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+
+        <div>
+            <input type="checkbox" name="agree" value="yes"> I agree
+
+        </div>
+        <div>
+            <br>
+<label for="comment">Enter Your comment</label>
+        </br>       
+<textarea name="comment" id="comment"></textarea>
+
+        </div>
+
+        <div>
+            <select name="country">
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+            </select>
+
+        </div>
+    </form>
+</body>
+
+</html>
