@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "vscode-icons-team.vscode-icons",
-        "ms-vscode.live-server"
+        "ms-vscode.live-server",
+        "hipstersmoothie-public.github-dark-high-contrast"
     ]
 }
