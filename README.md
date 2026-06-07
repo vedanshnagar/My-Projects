@@ -1,43 +1,36 @@
 # My-Projects
 
-A collection of small static web projects and demos. Each project is contained in the PROJECTS/ folder and is mostly a standalone static site (HTML, CSS, and small JavaScript files).
+Collection of small static web demos. Each demo is self-contained under the `PROJECTS/` folder and typically consists of an `index.html` entry point, optional `style.css`, and optional `script.js`.
 
-Contents
---------
+Repository structure
 
-- `PROJECTS/`: multiple demo projects (each in its own folder)
+- `PROJECTS/` — individual demo project folders (e.g., `PROJECT-2`, `PROJECT-3`, …)
 
-Overview
---------
+Usage
 
-This workspace contains a set of individual demo projects named `PROJECT-2` through `PROJECT-19`. Many of them include an `index.html` (or `Index.html`) file and optional `style.css` / `script.js` files.
-
-Quick start
------------
-
-1. Open any project's `index.html` file directly in your browser.
-2. Or serve the workspace locally (recommended) and browse to a project, for example:
+- Open a project's `index.html` file directly in a browser.
+- To serve the repository locally, run:
 
 ```bash
 cd /workspaces/My-Projects
 python3 -m http.server 8000
-# then open: http://localhost:8000/PROJECTS/PROJECT-2/
+# then open http://localhost:8000/PROJECTS/PROJECT-2/ in a browser
 ```
 
-Contributing
-------------
+Contributing guidelines
 
-- Add a new folder under `PROJECTS/` with a descriptive name.
-- Include an `index.html` entry point and keep related assets (CSS/JS/images) in the same folder.
+- Add a new folder under `PROJECTS/` with a clear, descriptive name.
+- Include an `index.html` file as the entry point and keep related assets inside the same folder.
+- Prefer lowercase filenames for cross-platform consistency.
 
 Notes
------
 
-- File name casing varies (e.g., `Index.html` vs `index.html`). Use the exact file name for your platform.
+- File name casing varies across projects (for example `Index.html` vs `index.html`). Use the exact filename when opening files on case-sensitive systems.
 
 License
--------
 
-No license is included. Add a `LICENSE` file if you intend to publish or share.
+No license is included. Add a `LICENSE` file to specify reuse and distribution terms.
 
-If you'd like, I can commit this README and push it to the remote now.
+Repository maintenance
+
+- The repository is intended as a set of static examples and demos. Keep each project self-contained to simplify previewing and sharing.
